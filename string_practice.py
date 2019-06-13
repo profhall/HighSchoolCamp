@@ -4,10 +4,11 @@ author: Elizabeth
 date: 2019-06-11 13:45
 """
 
+import random
+
 phrase = "here i am!"
-slogan = "jskldfjksd"
-combined = f"{phrase} {slogan}\n"
-print(combined)
+num_char = len(phrase)  # Gets the number of characters for a string
+rand_num = random.randint(0, 5)  # Gets a random number between 0 and 5
 
 
 def is_letter(character):
@@ -44,3 +45,5 @@ def palindrome(check):
 
 print(palindrome("Madam, I'm Adam"))
 print(palindrome("Computer"))
+
+
