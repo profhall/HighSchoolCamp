@@ -81,7 +81,7 @@ date: 2019-06-13 13:22
 x = input("Enter response ('Y', 'y', 'yes', 'YES' or 'N', 'n', 'no', 'NO'): ")
 
 # while x != 'Y' or x != 'y' or x != 'yes' or x != 'YES' or x != 'N' or x != 'n' or x != 'no' or x != 'NO':
-    
+
 while x not in ['Y', 'y', 'yes', 'YES' or 'N', 'n', 'no', 'NO']:
     x = input("Enter response ('Y', 'y', 'yes', 'YES' or 'N', 'n', 'no', 'NO'): ")
 
